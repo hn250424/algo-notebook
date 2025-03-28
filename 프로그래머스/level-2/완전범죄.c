@@ -102,13 +102,6 @@ int main() {
     int n = 4;
     int m = 4;
 
-    // given. result: 0.
-    // int values[3][2] = {{1, 2}, {2, 3}, {2, 1}};
-    // size_t info_rows = 3;
-    // size_t info_cols = 2;
-    // int n = 1;
-    // int m = 7;
-
     // given. result: 6.
     // int values[3][2] = {{3, 3}, {3, 3}};
     // size_t info_rows = 3;

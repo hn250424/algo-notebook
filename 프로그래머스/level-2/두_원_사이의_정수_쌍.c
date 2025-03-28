@@ -14,34 +14,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-// long long solution(int r1, int r2) {
-//     long long answer = 0;
-    
-//     long long square_r2 = (long long)r2 * r2;
-//     long long square_r1 = (long long)r1 * r1;
-//     long long last_x = r2 - 1;
-
-//     for (long long y = 1; y < r2; y++) {
-//         long long square_y = y * y;
-
-//         while (last_x * last_x + square_y > square_r2) {
-//             last_x--;
-//         }
-//         answer += last_x;
-
-//         long long x2 = last_x - 1;
-//         while (x2 > 0 && x2 * x2 + square_y >= square_r1) {
-//             x2--;
-//         }
-//         answer -= x2;
-//     }
-
-//     answer += r2 - r1 + 1;
-//     answer *= 4;
-    
-//     return answer;
-// }
-
 long long solution(int r1, int r2) {
     long long answer = 0;
     long long square_r2 = (long long)r2 * r2;
@@ -86,14 +58,6 @@ int main() {
     // given. result: 20.
     // int r1 = 2;
     // int r2 = 3;
-
-    // given. result: 40.
-    // int r1 = 2;
-    // int r2 = 4;
-
-    // given. result: 1008.
-    // int r1 = 9;
-    // int r2 = 20;
 
     // given. result: 952.
     // int r1 = 10;
