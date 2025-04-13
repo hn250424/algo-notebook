@@ -85,6 +85,6 @@ int main() {
 }
 
 /**
- * Runtime: 9ms 57.59%
- * Memory: 11.56MB 82.50%
+ * Runtime: 3ms 84.05%
+ * Memory: 11.47MB 85.59%
  */
