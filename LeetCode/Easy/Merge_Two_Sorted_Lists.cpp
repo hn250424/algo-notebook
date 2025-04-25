@@ -78,10 +78,9 @@ int main() {
     
     Solution sol;
     ListNode* answer = sol.mergeTwoLists(list1, list2);
-    ListNode* print = answer;
-    while (print) {
-        cout << print->val << " ";
-        print = print->next;
+    while (answer) {
+        cout << answer->val << " ";
+        answer = answer->next;
     }
     cout << endl;
 
