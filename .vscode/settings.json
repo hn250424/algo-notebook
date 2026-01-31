@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "xstring": "cpp",
+    "algorithm": "cpp",
+    "vector": "cpp",
+    "ostream": "cpp",
+    "atomic": "cpp",
+    "string": "cpp",
+    "xlocale": "cpp",
+    "unordered_map": "cpp",
+    "xtree": "cpp",
+    "unordered_set": "cpp",
+    "set": "cpp",
+    "queue": "cpp",
+    "stack": "cpp",
+    "iostream": "cpp",
+    "stdlib.h": "c"
+  }
+}
